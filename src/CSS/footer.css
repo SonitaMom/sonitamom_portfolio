@@ -1,0 +1,22 @@
+.footer-container {
+  margin-top: 10rem;
+  border-top: 1px solid rgba(var(--border));
+  height: 4rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+@media (max-width: 440px) {
+  .footer-container {
+    margin-top: 0rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}

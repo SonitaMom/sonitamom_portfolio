@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #fdf8ec;
+  --font-color: #000000;
+  --card-color: #d9d9d9;
+  --border: 53, 30, 30;
+  --input-color: 246, 215, 215;
+  /* --btn-color: #D9D9D9; */
+
+  /* Font */
+  --indie-flower: "Indie Flower", cursive;
+  --Kalam: "Kalam", cursive;
+  --Itim: "Itim", cursive;
+  --Inria-Serif: "Inria Serif", serif;
+
+  /* text responsive  */
+  --text-header: clamp(34px, 4.5vw, 64px);
+  --text-body: clamp(13px, 1.3vw, 18px);
+  --text-btn: clamp(14px, 1.5vw, 20px);
+  --text-title: clamp(20px, 2.5vw, 35px);
+  --text-desc: clamp(14px, 1.6vw, 24px);
+  --border-radius: 20px;
+  --padding: clamp(0.6rem, 2vw, 1rem);
+  --font-title: 5rem;
+
+  /* witdh */
+  --navbar-width: clamp(250px, 30vw, 400px);
+}
