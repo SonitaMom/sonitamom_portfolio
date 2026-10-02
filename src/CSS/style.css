@@ -61,6 +61,11 @@ body {
   border-radius: 8px;
 }
 
+section {
+  scroll-snap-align: start;
+  margin-top: 4rem;
+}
+
 .navbar-toggler .bar {
   position: absolute;
   left: 50%;
@@ -93,7 +98,7 @@ body {
 
 /*=================Home page=========================*/
 #hero {
-  padding-top: 9vh;
+  padding-top: 0.1vh;
   padding-bottom: 9vh;
 }
 /* .hero-info {
@@ -187,6 +192,29 @@ body {
   padding: 0.8rem 2.5rem;
   border-radius: var(--border-radius);
   color: antiquewhite;
+}
+@media (min-width: 993px) {
+  .main-hero {
+    display: flex;
+  }
+
+  .hero-info {
+    width: 65%;
+  }
+
+  .personal-card {
+    width: 33%;
+  }
+}
+@media (max-width: 1024px) {
+  .personal-card {
+    padding-top: 5.5rem;
+  }
+
+  .personal-name {
+    top: 83%;
+    left: -25%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -305,7 +333,7 @@ body {
   }
 
   #hero {
-    padding-top: 7vh;
+    padding-top: 1vh;
     padding-bottom: 5vh;
   }
 }
