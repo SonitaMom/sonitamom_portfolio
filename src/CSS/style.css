@@ -212,8 +212,14 @@ section {
   }
 
   .personal-name {
-    top: 83%;
+    top: 85%;
     left: -25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-name {
+    top: 95%;
   }
 }
 
